@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
   "directories": {
     "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "dependencies": {
     "inquirer": "^9.1.4",
     "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }

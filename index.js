@@ -262,33 +262,6 @@ listActions();
 
 
 
-// role.getRolesList()
-//     .then(result => {
-//         inquirer.prompt(
-//             {
-//                 type: 'list',
-//                 name: 'role_id',
-//                 choices: result,
-//                 message: 'pick a role'
-//             }
-//         )
-//             .then(choice => console.log(choice.role_id))
-//     });
 
 
-
-// department.getDepartments()
-//     .then(result => {
-//         inquirer.prompt(
-//             {
-//                 type: 'list',
-//                 name: 'department',
-//                 choices: result,
-//                 message: 'pick a department'  
-//             }
-//         )
-//         .then(choice => console.log(choice.department))
-//     });
-
-    
     
